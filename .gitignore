@@ -1,0 +1,37 @@
+# Compiled Java files
+*.class
+*.jar
+*.war
+*.ear
+
+# Build directories
+bin/
+build/
+dist/
+target/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# IDE-specific directories
+.classpath
+.project
+.settings/
+*.iml
+out/
+
+# gradle
+.gradle/
+
+# Maven
+.maven/
+
+# Other
+*.log
+*.tmp
