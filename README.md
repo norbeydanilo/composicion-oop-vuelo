@@ -1,18 +1,7 @@
-## Getting Started
+# Ejercicio Composición: Vuelo y Asiento
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+**"Un objeto está formado por otros. Sin el todo, las partes no tienen sentido."**
 
-## Folder Structure
+La parte no puede existir sin el todo. Si el objeto principal se destruye, sus partes también. El ejemplo clásico: un `Vuelo` tiene `Asientos`. Un asiento sin vuelo no tiene sentido.
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+> El asiento no tiene sentido sin el vuelo que lo creó. El vuelo instancia sus propios asientos internamente. Eso es **composición**.
